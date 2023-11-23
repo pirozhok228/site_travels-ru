@@ -9,7 +9,7 @@ body {
 
 .header {
     margin-bottom: 60px;
-    margin-top: 30px ;
+    margin-top: 30px;
 }
 
 .header-container {
@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 110px;
 }
 
 .main * {
@@ -73,6 +73,13 @@ h3 {
     font-weight: 600;
 }
 
+h4 {
+    color: white;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 6
+}
+
 h6 {
     color: white;
     font-size: 25px;
@@ -95,6 +102,12 @@ figcaption {
     font-family: "Inter", sans-serif;
 }
 
+.titles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
 .text {
     text-align: left;
     width: 984px;
@@ -104,7 +117,9 @@ figcaption {
     row-gap: 40px;
 }
 
-.text h3, .text h6, .text p {
+.text h3,
+.text h6,
+.text p {
     margin: 0px;
 }
 
@@ -155,11 +170,28 @@ h2 {
     align-self: end;
 }
 
+.h2-subtitle {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    line-height: 108.92%;
+    text-align: center;
+}
+
+.p-subtitle {
+    width: 640px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 145.227%;
+    text-align: center;
+}
+
 .cards {
     display: flex;
     flex-direction: column;
-    row-gap: 90px;
-    margin-top: 40px;
+    row-gap: 80px;
 }
 
 .card {
@@ -220,4 +252,122 @@ h2 {
 .card-main p {
     align-self: flex-start;
     margin: 0px 0px auto 0px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.video {
+    width: 583px;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.video * {
+    margin: 0px;
+}
+
+.video1 {
+    background-image: url("./images/video_images/video_image1.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.video2 {
+    background-image: url("./images/video_images/video_image2.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.video img {
+    align-self: flex-start;
+    justify-self: start;
+    margin: 25px auto auto 25px;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 10px;
+    justify-self: start;
+    align-self: flex-end;
+    margin: auto auto 25px 25px;
+}
+
+.frame h3 {
+    font-size: 40px;
+    line-height: 108.92%;
+    width: 322px;
+}
+
+.places-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.places {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.place {
+    width: 284px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.place h3 {
+    font-size: 30px;
+    line-height: 108.92%;
+    align-self: flex-start;
+    justify-self: start;
+    margin: 30px auto auto 15px;
+}
+
+.place p {
+    font-size: 15px;
+    width: 248px;
+    align-self: flex-end;
+    justify-self: center;
+    margin: auto auto 30px auto;
+}
+
+.place1 {
+    background-image: url("./images/places_images/1.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.place2 {
+    background-image: url("./images/places_images/2.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.place3 {
+    background-image: url("./images/places_images/3.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.place4 {
+    background-image: url("./images/places_images/4.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
 }
