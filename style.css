@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    row-gap: 110px;
+    row-gap: 100px;
 }
 
 .main * {
@@ -315,7 +315,7 @@ h2 {
 .places-container {
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 40px;
 }
 
 .places {
@@ -370,4 +370,69 @@ h2 {
     background-image: url("./images/places_images/4.png");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
+}
+
+.photos-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    align-items: center;
+}
+
+.photo {
+    width: 382px;
+    margin: 0px 0px auto 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: start;
+    align-self: flex-start;
+}
+
+.photo * {
+    margin: 0px auto 0px 0px;
+}
+
+.photo img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.baical {
+    width: 1184px;
+    height: 594px;
+    background-image: url(./images/baical.png);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+}
+
+.b {
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin: auto auto 30px auto;
+}
+
+.baical h2 {
+    align-self: flex-start;
+    justify-self: center;
+    margin: 0px auto auto auto;
+}
+
+.baical p {
+    font-size: 20px;
+    width: 382px;
+    justify-self: center;
+    align-self: flex-end;
+    margin: 0px;
+    margin: auto auto 0px auto;
 }
