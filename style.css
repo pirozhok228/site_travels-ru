@@ -537,3 +537,43 @@ h2 {
     line-height: 169.432%;
     font-weight: 400;
 }
+
+.footer {
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    max-width: 1300px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul li a:hover,
+ul li a:active,
+ul li a {
+    margin: 0px auto 0px 0px;
+    color: white;
+    font-size: 20px;
+    line-height: 169.432%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.directed {
+    justify-self: end;
+    margin: 0px 0px 0px auto;
+}
