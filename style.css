@@ -47,6 +47,14 @@ body {
     width: 984px;
     height: 555px;
     margin-top: 20px;
+    background-image: url("./images/1.png");
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.img-main img {
+    justify-self: center;
+    margin-bottom: 200px;
 }
 
 .title {
@@ -100,6 +108,7 @@ figcaption {
     font-size: 15px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
+    letter-spacing: 1.5px;
 }
 
 .titles {
@@ -147,18 +156,16 @@ figcaption {
 .g-img {
     width: 284px;
     height: 188px;
-}
-
-.grid-container {
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
+    margin: 0px;
 }
 
 .grid-img {
+    width: 1226px;
     display: flex;
-    flex-direction: column;
-    row-gap: 30px;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 h2 {
